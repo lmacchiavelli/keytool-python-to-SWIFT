@@ -36,7 +36,6 @@ edito il gruppo
   
 # converting string to json 
 
-  
 # printing final result 
 
 gruppi = []
@@ -79,4 +78,3 @@ def creaContenuti():
 creaGruppi()
 creaContenuti()
 # print(gruppi)
-
