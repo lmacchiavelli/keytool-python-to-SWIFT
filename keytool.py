@@ -47,7 +47,7 @@ def creaGruppi():
 		#Resetto le keyword
 		keyword = []
 		#Prendo Input per nome del gruppo ad esempio h1, h2 , titolo
-		inputGruppo = input("Inserisci il nome del gruppo es: H1 : ")
+		inputGruppo = input("Gruppo: ")
 		#creo un index incrementale da assegnare al gruppo
 		index += 1
 
@@ -61,7 +61,7 @@ def creaGruppi():
 
 			while True:
 				
-				inputKey = input("Keyword")
+				inputKey = input("Key: ")
 				
 				if inputKey != '<':
 					keyword.append(inputKey)
