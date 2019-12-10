@@ -42,7 +42,6 @@ edito il gruppo
 gruppi = []
 
 def creaGruppi():
-	
 	#cliclo continuo finchè non digito exit
 	index = 0
 	while True:
@@ -60,6 +59,7 @@ def creaGruppi():
 				"name": inputGruppo,
 				"keyword" : keyword,
 			})
+
 			while True:
 				
 				inputKey = input("Keyword")
@@ -72,7 +72,6 @@ def creaGruppi():
 			creaContenuti()
 			break
 			
-
 def creaContenuti():
 	for i in gruppi:
 		print(i["name"])
