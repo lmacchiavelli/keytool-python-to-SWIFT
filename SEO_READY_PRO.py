@@ -54,14 +54,6 @@ print(header)
 
 
 
-# linecount = 0
-# for i in gruppi:
-# 	print(i["name"])
-# 	for x in i["keyword"]:
-# 		column +
-# 		print(x)
-# 		linecount+=1
-
 
 comp = (header+"\n"+ line + "\n" + column)
 print (modulo)
